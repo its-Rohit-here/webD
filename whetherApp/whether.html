@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="whether.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="projectName">Whether Info App</div>
+
+        <div class="tab-section Invisible">
+
+            <div class="myLocation  tab active">Current Location</div>
+            <div class="searchLocation tab ">Search Other Location</div>
+
+        </div>
+
+<div class="loadingImage"><img src="" alt="" class="loading"></div>
+
+
+        <div class="grantAccessBox">
+            <div class="textTogetLocation">Grant Location Access to WhetherApp:</div>
+            <button type="submit" class="grantBtn">Grant Access</button>
+        </div>
+
+
+<div class="LocationWhether Invisible">
+   
+    <div class="SearchedLocationWhether SpaceOccupiedInvisible">  <!--display only when another tab clicked-->
+
+        <input type="text" class="searchCityinput" placeholder="Search another city.....">  
+        <button class="SubmitOtherLocationbtn" type="button"> Search</button>
+
+    </div>
+
+  <div class="countryAndflag">  
+    <div class="cityDescription">Current City </div>
+  <img class="countryFlag" src="" alt="Loading" loading="lazy" >
+</div>
+
+    <div class="whetherInforamtionBox">
+
+       <div class="temperature">
+        <img src="images/temperature.png" alt="" class="tempImage">
+        <div class="tempValue"><span class="unit">&deg;C</span></div>
+       </div>
+
+       <div class="additionalInfo">
+
+           <div class="windSpeed"><img src="images/wind-turbine.png" alt="" class="imgData"><div class="dataValue ws"></div></div>
+           <div class="cloudInfo"><img src="images/cloud.png" alt="" class="imgData"><div class="dataValue ci"></div></div>
+           <div class="humidity"><img src="images/humidity.png" alt="" class="imgData"><div class="dataValue h"></div></div>
+
+       </div>
+    </div>
+</div>
+
+<div class="signature">Rohit-Verma&#169;</div>
+</div>
+
+<script src="whether.js"></script>
+</body>
+</html>
